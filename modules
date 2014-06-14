@@ -1,0 +1,9 @@
+# /etc/modules: kernel modules to load at boot time.
+#
+# It may be necessary to add this entry to your /etc/modules. The following is
+# the entry for the Huawei E173 (after switching) upon which this project is
+# based. It will be necessary to restart the system before the changes take
+# effect.
+
+usbserial vendor=0x12d1 product=0x1506
+
